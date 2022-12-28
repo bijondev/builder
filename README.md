@@ -16,7 +16,7 @@ The following rules are followed to make a Builder class:
     function build return instance of the Main class
 
 Following is the example of Builder class in Kotlin:
-
+```
 class Hamburger private constructor(
     val cheese: Boolean,
     val beef: Boolean,
@@ -34,3 +34,4 @@ class Hamburger private constructor(
         fun build() = Hamburger(cheese, beef, onions)
     }
 }
+```
